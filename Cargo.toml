@@ -1,0 +1,15 @@
+[package]
+name = "pigpio-sys"
+version = "0.1.0"
+authors = ["Martin Habovštiak <martin.habovstiak@gmail.com>"]
+description = "Raw, unsafe bindings to pigpio library."
+homepage = "https://github.com/Kixunil/pigpio-sys"
+repository = "https://github.com/Kixunil/pigpio-sys"
+readme = "README.md"
+keywords = ["pigpio", "embedded", "ffi"]
+categories = ["external-ffi-bindings", "embedded", "hardware-support"]
+license = "MITNFA"
+maintenance = { status = "passively-maintained" }
+
+[build-dependencies]
+bindgen = "0.42"
